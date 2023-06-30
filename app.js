@@ -32,8 +32,12 @@ const item3 = new Item({
   name:"Check off the corresponding checkbox to delete an item."
 });
 
+const item4 = new Item({
+  name:"Navigate to directories by appending /<topic-name> in the URL."
+});
 
-const defaultItems=[item1,item2,item3];
+
+const defaultItems=[item1,item2,item3,item4];
 
 
 const listSchema={
